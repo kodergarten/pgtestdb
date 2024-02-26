@@ -1,4 +1,4 @@
-module github.com/peterldowns/pgtestdb
+module github.com/kodergarten/pgtestdb
 
 go 1.18
 

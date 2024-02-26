@@ -1,12 +1,12 @@
-module github.com/peterldowns/pgtestdb/migrators/sqlmigrator
+module github.com/kodergarten/pgtestdb/migrators/sqlmigrator
 
 go 1.18
 
-replace github.com/peterldowns/pgtestdb => ../../
+replace github.com/kodergarten/pgtestdb => ../../
 
 require (
 	github.com/jackc/pgx/v5 v5.5.1
-	github.com/peterldowns/pgtestdb v0.0.12
+	github.com/kodergarten/pgtestdb v0.0.12
 	github.com/peterldowns/testy v0.0.1
 	github.com/rubenv/sql-migrate v1.4.0
 )

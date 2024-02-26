@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/peterldowns/pgtestdb"
-	"github.com/peterldowns/pgtestdb/migrators/common"
+	"github.com/kodergarten/pgtestdb"
+	"github.com/kodergarten/pgtestdb/migrators/common"
 )
 
 // NewSchemaMigrator returns a [SchemaMigrator], which is a pgtestdb.Migrator that
