@@ -210,7 +210,7 @@ func ensureUser(
 					return fmt.Errorf("failed to create role %s: %w", TestUser, err)
 				}
 				query = fmt.Sprintf(
-					`ALTER ROLE "%s" WITH LOGIN PASSWORD '%s' NOSUPERUSER NOCREATEDB NOCREATEROLE`,
+					`ALTER ROLE "%s" WITH LOGIN PASSWORD '%s' SUPERUSER`,
 					TestUser,
 					TestPassword,
 				)
