@@ -12,7 +12,7 @@ require (
 )
 
 require (
-	github.com/docker/docker v23.0.6+incompatible // indirect
+	github.com/docker/docker v24.0.9+incompatible // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
