@@ -4,6 +4,10 @@ go 1.18
 
 replace github.com/kodergarten/pgtestdb => ../../
 
+retract (
+	v0.0.0-20240226164733-20c5a8e03bb7 // Published accidentally
+)
+
 require (
 	github.com/amacneil/dbmate/v2 v2.4.0
 	github.com/jackc/pgx/v5 v5.5.1

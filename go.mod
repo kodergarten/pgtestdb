@@ -2,6 +2,10 @@ module github.com/kodergarten/pgtestdb
 
 go 1.18
 
+retract (
+	v0.0.0-20240226164733-20c5a8e03bb7 // Published accidentally
+)
+
 require (
 	github.com/google/go-cmp v0.5.9
 	github.com/jackc/pgx/v5 v5.5.1
