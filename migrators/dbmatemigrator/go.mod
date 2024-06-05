@@ -4,11 +4,7 @@ go 1.18
 
 replace github.com/kodergarten/pgtestdb => ../../
 
-retract (
-	v0.0.0-20240226164733-20c5a8e03bb7 // Published accidentally
-	v0.0.0-20240604093142-793c835d9206 // Published accidentally
-	v0.0.1 // Published accidentally
-)
+retract [v0.0.0-0, v0.0.2]  // Retract all versions
 
 require (
 	github.com/amacneil/dbmate/v2 v2.4.0
